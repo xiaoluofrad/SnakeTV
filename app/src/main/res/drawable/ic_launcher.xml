@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 简单的矢量图标：绿色圆形背景 + 蛇形路径 -->
+<!-- 矢量图标：蛇形S + 圆角背景 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
@@ -10,12 +10,11 @@
         android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
     <path
         android:fillColor="#00E676"
-        android:pathData="M54,20 C70,20 80,30 80,46 C80,58 72,64 60,64 C52,64 46,68 46,76 C46,84 52,88 60,88 L48,88 C38,88 30,80 30,70 C30,58 38,52 50,52 C60,52 66,46 66,38 C66,30 60,24 54,24 Z"
+        android:pathData="M54,19 C70,19 81,30 81,46 C81,58 72,65 60,65 C52,65 46,69 46,77 C46,85 52,89 60,89 L48,89 C38,89 29,80 29,69 C29,57 38,51 50,51 C60,51 67,45 67,37 C67,29 61,23 54,23 Z"
         android:strokeWidth="4"
         android:strokeColor="#00E676" />
-    <!-- 眼睛 -->
-    <circle
+    <!-- 眼睛圆点，用path表示 -->
+    <path
         android:fillColor="#1A1A2E"
-        android:cx="62"
-        android:cy="32" />
+        android:pathData="M56,34 C58,34 60,35 60,36 C60,37 58,38 56,38 C54,38 52,37 52,36 C52,35 54,34 56,34 Z" />
 </vector>
