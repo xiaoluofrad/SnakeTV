@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 使用Leanback主题适配TV，全屏无标题栏 -->
+    <style name="Theme.SnakeTV" parent="@style/Theme.Leanback">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>

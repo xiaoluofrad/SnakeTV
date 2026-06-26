@@ -1,0 +1,30 @@
+# Android
+*.apk
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+*.log
+
+# Gradle
+gradle/wrapper/gradle-wrapper.jar
+gradlew.bat
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Temp
+*.zip
+/tmp/

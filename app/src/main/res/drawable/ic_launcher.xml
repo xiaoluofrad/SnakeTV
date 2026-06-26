@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 简单的矢量图标：绿色圆形背景 + 蛇形路径 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M54,20 C70,20 80,30 80,46 C80,58 72,64 60,64 C52,64 46,68 46,76 C46,84 52,88 60,88 L48,88 C38,88 30,80 30,70 C30,58 38,52 50,52 C60,52 66,46 66,38 C66,30 60,24 54,24 Z"
+        android:strokeWidth="4"
+        android:strokeColor="#00E676" />
+    <!-- 眼睛 -->
+    <circle
+        android:fillColor="#1A1A2E"
+        android:cx="62"
+        android:cy="32" />
+</vector>
